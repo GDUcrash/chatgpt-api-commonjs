@@ -1,6 +1,6 @@
 import Keyv from 'keyv'
-import pTimeout from 'p-timeout'
-import QuickLRU from 'quick-lru'
+import pTimeout from '@esm2cjs/p-timeout'
+import QuickLRU from 'quick-lru-cjs'
 import { v4 as uuidv4 } from 'uuid'
 
 import * as tokenizer from './tokenizer'
